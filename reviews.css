@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-logo {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #025318;
+
+}
+
+.navigation {
+    .nav-bar ul {
+        display: flex;
+        list-style-type: none;
+        gap: 40px;
+        margin-top: 25px;
+        padding-right: 30px;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #001904;
+}
+
+.review-icons-image {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+    .review-image {
+        position: absolute;
+        overflow: visible;
+
+        img {
+            border-radius: 50%;
+            width: 24vh;
+            height: 22vh;
+            border: 3px solid #085e16;
+        }
+    }
+
+    .left-icon i {
+        color: white;
+        margin-top: 330px;
+        background-color: #001904;
+        width: 30%;
+        padding: 20px;
+        border-radius: 60%;
+    }
+
+    .right-icon i {
+        color: white;
+        margin-top: 330px;
+        background-color: #001904;
+        width: 30%;
+        padding: 20px;
+        border-radius: 60%;
+    }
+
+    .review {
+        margin-top: 100px;
+        width: 20%;
+        background-color: #001904;
+        color: white;
+        padding: 50px;
+        font-size: 22px;
+        border-radius: 20px;
+    }
+}
+
